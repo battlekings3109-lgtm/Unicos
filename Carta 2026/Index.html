@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Año Nuevo</title>
+        <link rel="icon" type="image/png" href="Imagenes/logo.png">
+        <link rel="stylesheet" href="Style.css">
+    </head>
+    <body>
+        
+
+
+
+            <!----------- Header----------- -->
+
+    <header class="header">
+
+
+            <video autoplay loop muted id="video-fondo"
+                src="Videos/Nieve.mp4" type="video/mp4">
+                Tu navegador no soporta videos
+            </video>
+
+            <div class="overlay"></div>
+
+            <div class="header_text">
+            <h1 class="title_header">
+                Feliz Año Nuevo <span class="especial">2026</span>!
+            </h1>
+            <p class="text_header">
+                    Que este año sea el mejor de todos, y se cumplan tus metas
+            </p>
+            </div>
+    </header>
+<!-----------Fin Header----------- -->
+
+
+    <!----------- Main ----------- -->
+    <main class="main">
+        
+
+        <!-----------Seccion 1- 2025------------->
+        <section class="Seccion1">
+            <div class="section-container">
+            <!-----------Toggle 1- 2025------------->
+                <button class="neon-button">2025</button>
+
+
+                <button id="btn-abrir" class="btn-abrir">+</button>
+                <div id="popup" class="popup">
+                    <div class="popup-container">
+                            <div class="popup-content">
+                                <h3 class="title-popup1">2025</h3>
+                                <p class="text-popup1">
+                                    El año 2025 fue un año dificil un año de cambios, donde hubo desafios, muchas dificultades, pero al final de todo se supero, un año donde prometimos cosas y al final muchas de ellas no la cumplimos, procrastinamos mucho y no cumplimos con las metas que prometimos pero...
+                                </p>
+                                <button id="btn-cerrar" class="btn-cerrar">X</button>
+                            </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-----------Fin Seccion 1- 2025------------->
+
+
+
+        
+        <section class="section2">
+        <!-- Canvas para nieve animada -->
+        <canvas id="snowCanvas"></canvas>
+        
+        <!-- Copos decorativos grandes -->
+        <div class="snowflake-decoration">❅</div>
+        <div class="snowflake-decoration">❆</div>
+        <div class="snowflake-decoration">❅</div>
+        <div class="snowflake-decoration">❆</div>
+        <div class="snowflake-decoration">❅</div>
+        <div class="snowflake-decoration">❆</div>
+
+        <div class="section2-container">
+            <div class="button-frame">
+                <button class="neon-button-golden">2026</button>
+            </div>
+
+            <button id="btn-abrir2" class="btn-abrir2">+</button>
+
+            <div id="popup2" class="popup2">
+                <div class="popup-container2">
+                    <div class="popup-content2">
+                        <h3 class="title-popup2">2026</h3>
+                        <p class="text-popup2">
+                            Este 2026 no será un año de promesas vacías, sino de cambios reales y victorias que sí se tocarán. El 2025 no fue un año perdido; fue el terreno que labraste, el fuego que templó tu carácter y la preparación necesaria para todo lo que estás por lograr. Ahora, pisa con fuerza. Pon a Dios como cimiento en cada paso, en cada meta que traces, y verás cómo la perseverancia bendice el camino. Conquistar con determinación y convertir cada prueba pasada en la energía que impulsa tu futuro. 
+                        </p>
+                        <button id="btn-cerrar2" class="btn-cerrar2">✕</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    </main>
+        <!-----------Fin Main----------- -->
+
+
+
+        <!-----------Footer----------- -->
+        <footer class="footer">
+            <p class="footer-text">&copy; 2026 Todos los derechos reservados</p>
+        </footer>
+        <!-----------Fin Footer----------- -->
+
+        <!-- Marca de agua firma -->
+        <div class="watermark-signature">MR</div>
+
+    <script src="Script.js"></script>
+    </body>
+    </html>
